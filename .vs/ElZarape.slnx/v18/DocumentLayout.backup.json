@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Proyectos\\IDGS903\\ElZarape\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D415273D-EF00-EC29-3088-1539BC45CA38}|ElZarape\\ElZarape.csproj|c:\\proyectos\\idgs903\\elzarape\\elzarape\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D415273D-EF00-EC29-3088-1539BC45CA38}|ElZarape\\ElZarape.csproj|solutionrelative:elzarape\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D415273D-EF00-EC29-3088-1539BC45CA38}|ElZarape\\ElZarape.csproj|c:\\proyectos\\idgs903\\elzarape\\elzarape\\wwwroot\\css\\modulos-style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D415273D-EF00-EC29-3088-1539BC45CA38}|ElZarape\\ElZarape.csproj|solutionrelative:elzarape\\wwwroot\\css\\modulos-style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D415273D-EF00-EC29-3088-1539BC45CA38}|ElZarape\\ElZarape.csproj|c:\\proyectos\\idgs903\\elzarape\\elzarape\\views\\categoria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D415273D-EF00-EC29-3088-1539BC45CA38}|ElZarape\\ElZarape.csproj|solutionrelative:elzarape\\views\\categoria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D415273D-EF00-EC29-3088-1539BC45CA38}|ElZarape\\ElZarape.csproj|c:\\proyectos\\idgs903\\elzarape\\elzarape\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D415273D-EF00-EC29-3088-1539BC45CA38}|ElZarape\\ElZarape.csproj|solutionrelative:elzarape\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D415273D-EF00-EC29-3088-1539BC45CA38}|ElZarape\\ElZarape.csproj|c:\\proyectos\\idgs903\\elzarape\\elzarape\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D415273D-EF00-EC29-3088-1539BC45CA38}|ElZarape\\ElZarape.csproj|solutionrelative:elzarape\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D415273D-EF00-EC29-3088-1539BC45CA38}|ElZarape\\ElZarape.csproj|c:\\proyectos\\idgs903\\elzarape\\elzarape\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D415273D-EF00-EC29-3088-1539BC45CA38}|ElZarape\\ElZarape.csproj|solutionrelative:elzarape\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D415273D-EF00-EC29-3088-1539BC45CA38}|ElZarape\\ElZarape.csproj|c:\\proyectos\\idgs903\\elzarape\\elzarape\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D415273D-EF00-EC29-3088-1539BC45CA38}|ElZarape\\ElZarape.csproj|solutionrelative:elzarape\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D415273D-EF00-EC29-3088-1539BC45CA38}|ElZarape\\ElZarape.csproj|c:\\proyectos\\idgs903\\elzarape\\elzarape\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D415273D-EF00-EC29-3088-1539BC45CA38}|ElZarape\\ElZarape.csproj|solutionrelative:elzarape\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D415273D-EF00-EC29-3088-1539BC45CA38}|ElZarape\\ElZarape.csproj|c:\\proyectos\\idgs903\\elzarape\\elzarape\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D415273D-EF00-EC29-3088-1539BC45CA38}|ElZarape\\ElZarape.csproj|solutionrelative:elzarape\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D415273D-EF00-EC29-3088-1539BC45CA38}|ElZarape\\ElZarape.csproj|c:\\proyectos\\idgs903\\elzarape\\elzarape\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D415273D-EF00-EC29-3088-1539BC45CA38}|ElZarape\\ElZarape.csproj|solutionrelative:elzarape\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "modulos-style.css",
+              "DocumentMoniker": "C:\\Proyectos\\IDGS903\\ElZarape\\ElZarape\\wwwroot\\css\\modulos-style.css",
+              "RelativeDocumentMoniker": "ElZarape\\wwwroot\\css\\modulos-style.css",
+              "ToolTip": "C:\\Proyectos\\IDGS903\\ElZarape\\ElZarape\\wwwroot\\css\\modulos-style.css",
+              "RelativeToolTip": "ElZarape\\wwwroot\\css\\modulos-style.css",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAMwIcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-06-11T05:24:14.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\IDGS903\\ElZarape\\ElZarape\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ElZarape\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Proyectos\\IDGS903\\ElZarape\\ElZarape\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "ElZarape\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-11T05:08:21.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\IDGS903\\ElZarape\\ElZarape\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ElZarape\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Proyectos\\IDGS903\\ElZarape\\ElZarape\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "ElZarape\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-11T05:08:19.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\IDGS903\\ElZarape\\ElZarape\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ElZarape\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Proyectos\\IDGS903\\ElZarape\\ElZarape\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ElZarape\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-11T05:05:11.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Proyectos\\IDGS903\\ElZarape\\ElZarape\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "ElZarape\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Proyectos\\IDGS903\\ElZarape\\ElZarape\\Models\\Categoria.cs",
+              "RelativeToolTip": "ElZarape\\Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T05:10:58.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoriaController.cs",
+              "DocumentMoniker": "C:\\Proyectos\\IDGS903\\ElZarape\\ElZarape\\Controllers\\CategoriaController.cs",
+              "RelativeDocumentMoniker": "ElZarape\\Controllers\\CategoriaController.cs",
+              "ToolTip": "C:\\Proyectos\\IDGS903\\ElZarape\\ElZarape\\Controllers\\CategoriaController.cs",
+              "RelativeToolTip": "ElZarape\\Controllers\\CategoriaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T05:11:33.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\IDGS903\\ElZarape\\ElZarape\\Views\\Categoria\\Index.cshtml",
+              "RelativeDocumentMoniker": "ElZarape\\Views\\Categoria\\Index.cshtml",
+              "ToolTip": "C:\\Proyectos\\IDGS903\\ElZarape\\ElZarape\\Views\\Categoria\\Index.cshtml",
+              "RelativeToolTip": "ElZarape\\Views\\Categoria\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-10T05:10:22.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Proyectos\\IDGS903\\ElZarape\\ElZarape\\Program.cs",
+              "RelativeDocumentMoniker": "ElZarape\\Program.cs",
+              "ToolTip": "C:\\Proyectos\\IDGS903\\ElZarape\\ElZarape\\Program.cs",
+              "RelativeToolTip": "ElZarape\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T05:08:26.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Proyectos\\IDGS903\\ElZarape\\ElZarape\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ElZarape\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Proyectos\\IDGS903\\ElZarape\\ElZarape\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ElZarape\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-06-11T05:25:25.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\IDGS903\\ElZarape\\ElZarape\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ElZarape\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Proyectos\\IDGS903\\ElZarape\\ElZarape\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ElZarape\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-11T05:27:00.427Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

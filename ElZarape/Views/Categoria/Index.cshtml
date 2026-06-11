@@ -1,0 +1,96 @@
+﻿@model List<ElZarape.Models.Categoria>
+
+<link rel="stylesheet" href="~/css/modulos-style.css" />
+
+<div class="container-fluid cabeza fixed-top" id="cabeza">
+    <img src="~/recursos/media/Logo_Zarape.png" alt="" class="hamburguer" id="hamburguer-icon" />
+    <header class="row">
+        <div class="col-12 titulo">
+            <h1 class="text-light text-center" style="font-weight: bold;">Categorías</h1>
+        </div>
+    </header>
+</div>
+
+<div class="mod-contenido">
+
+    <div class="mod-topbar">
+        <div>
+            <h2 class="mod-titulo">Gestión de categorías</h2>
+            <p class="mod-sub">Agrega y consulta las categorías del sistema</p>
+        </div>
+        <a asp-controller="Home" asp-action="Index" class="btn-regresar">← Regresar</a>
+    </div>
+
+    <div class="mod-layout">
+
+        <div class="mod-form-card">
+            <h3 class="mod-form-titulo">Nueva categoría</h3>
+            <form asp-action="Agregar" method="post">
+
+                <div class="form-group">
+                    <label>Descripción</label>
+                    <input type="text" name="descripcion" placeholder="Ej. Bebidas calientes" required />
+                </div>
+
+                <div class="form-group">
+                    <label>Tipo</label>
+                    <select name="tipo" required>
+                        <option value="">-- Selecciona un tipo --</option>
+                        <option value="Alimentos">Alimentos</option>
+                        <option value="Bebidas">Bebidas</option>
+                        <option value="Combos">Combos</option>
+                    </select>
+                </div>
+
+                <div class="form-group form-check-group">
+                    <label>
+                        <input type="checkbox" name="estatus" value="true" />
+                        Activo
+                    </label>
+                </div>
+
+                <button type="submit" class="btn-guardar">Agregar categoría</button>
+            </form>
+        </div>
+
+        <div class="mod-tabla-card">
+            <h3 class="mod-form-titulo">Registros (@Model.Count)</h3>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Descripción</th>
+                            <th>Tipo</th>
+                            <th>Estatus</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model.Count == 0)
+                        {
+                            <tr>
+                                <td colspan="4" style="text-align:center; color:#aaa; padding: 1.5rem;">
+                                    Sin registros aún
+                                </td>
+                            </tr>
+                        }
+                        @foreach (var cat in Model)
+                        {
+                            <tr>
+                                <td>@cat.idCategoria</td>
+                                <td>@cat.descripcion</td>
+                                <td>@cat.tipo</td>
+                                <td>
+                                    <span class="badge-estatus @(cat.estatus ? "activo" : "inactivo")">
+                                        @(cat.estatus ? "Activo" : "Inactivo")
+                                    </span>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "El Zarape";
+}
+
+<link rel="stylesheet" href="~/css/modulos-style.css"/>
+
+<div class="menu-grid-wrapper container mt-5 pt-4">
+    <img src="~/recursos/media/Logo_Zarape.png" alt="" class="hamburguer" id="hamburguer-icon" />
+    <header class="row">
+        <div class="col-12 titulo">
+            <h1 class="text-light text-center" style="font-weight: bold;">El Zarape</h1>
+        </div>
+    </header>
+</div>
+
+<div id="menu-container"></div>
+
+<div class="container mt-5 pt-4">
+    <p class="texto-bienvenida">Selecciona una sección para comenzar</p>
+
+    <div class="menu-grid">
+
+        <div class="menu-card">
+            <div class="menu-icon">👥</div>
+            <span class="menu-card-title">Usuarios</span>
+            <a asp-controller="Usuario" asp-action="Index" class="btn-zarape">Gestionar</a>
+        </div>
+
+        <div class="menu-card">
+            <div class="menu-icon">📍</div>
+            <span class="menu-card-title">Sucursales</span>
+            <a asp-controller="Sucursal" asp-action="Index" class="btn-zarape">Gestionar</a>
+        </div>
+
+        <div class="menu-card">
+            <div class="menu-icon">🗂️</div>
+            <span class="menu-card-title">Categorías</span>
+            <a asp-controller="Categoria" asp-action="Index" class="btn-zarape">Gestionar</a>
+        </div>
+
+        <div class="menu-card">
+            <div class="menu-icon">🍽️</div>
+            <span class="menu-card-title">Alimentos</span>
+            <a asp-controller="Alimento" asp-action="Index" class="btn-zarape">Gestionar</a>
+        </div>
+
+        <div class="menu-card">
+            <div class="menu-icon">🥤</div>
+            <span class="menu-card-title">Bebidas</span>
+            <a asp-controller="Bebida" asp-action="Index" class="btn-zarape">Gestionar</a>
+        </div>
+
+       
+        <div class="menu-card">
+            <div class="menu-icon">📦</div>
+            <span class="menu-card-title">Combos</span>
+            <a asp-controller="Combo" asp-action="Index" class="btn-zarape">Gestionar</a>
+        </div>
+
+    </div>
+</div>

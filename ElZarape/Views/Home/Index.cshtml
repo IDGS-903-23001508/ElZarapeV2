@@ -1,0 +1,55 @@
+﻿@{
+    ViewData["Title"] = "El Zarape";
+}
+
+<div class="zar-header">
+    <img src="~/recursos/media/Logo_Zarape.png" alt="Logo" class="zar-logo" />
+    <h1>El Zarape</h1>
+    <p>Panel de administración</p>
+</div>
+
+<div id="menu-container"></div>
+
+<div class="zar-contenido">
+    <p class="texto-bienvenida">Selecciona una sección para comenzar</p>
+
+    <div class="menu-grid">
+
+        <div class="menu-card">
+            <div class="menu-icon">👥</div>
+            <span class="menu-card-title">Usuarios</span>
+            <a asp-controller="Usuario" asp-action="Index" class="btn-zarape">Gestionar</a>
+        </div>
+
+        <div class="menu-card">
+            <div class="menu-icon">📍</div>
+            <span class="menu-card-title">Sucursales</span>
+            <a asp-controller="Sucursal" asp-action="Index" class="btn-zarape">Gestionar</a>
+        </div>
+
+        <div class="menu-card">
+            <div class="menu-icon">🗂️</div>
+            <span class="menu-card-title">Categorías</span>
+            <a asp-controller="Categoria" asp-action="Index" class="btn-zarape">Gestionar</a>
+        </div>
+
+        <div class="menu-card">
+            <div class="menu-icon">🍽️</div>
+            <span class="menu-card-title">Alimentos</span>
+            <a asp-controller="Alimento" asp-action="Index" class="btn-zarape">Gestionar</a>
+        </div>
+
+        <div class="menu-card">
+            <div class="menu-icon">🥤</div>
+            <span class="menu-card-title">Bebidas</span>
+            <a asp-controller="Bebida" asp-action="Index" class="btn-zarape">Gestionar</a>
+        </div>
+
+        <div class="menu-card">
+            <div class="menu-icon">📦</div>
+            <span class="menu-card-title">Combos</span>
+            <a asp-controller="Combo" asp-action="Index" class="btn-zarape">Gestionar</a>
+        </div>
+
+    </div>
+</div>
