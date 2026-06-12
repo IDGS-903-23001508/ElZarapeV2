@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ElZarape")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cdd68278ccf9f88b2476bf45962bd02e23ebe638")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+966ce6c8f1aab7d4a6157ec8ace5e614acd9eee3")]
 [assembly: System.Reflection.AssemblyProductAttribute("ElZarape")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ElZarape")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

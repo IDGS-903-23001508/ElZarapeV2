@@ -1,0 +1,115 @@
+@model List<ElZarape.Models.Combos>
+<link rel="stylesheet" href="~/css/modulos-style.css" />
+<div class="container-fluid cabeza fixed-top" id="cabeza"><img src="~/recursos/media/Logo_Zarape.png" alt=""
+                                                                   class="hamburguer" id="hamburguer-icon" />
+    <header class="row">
+        <div class="col-12 titulo">
+            <h1 class="text-light text-center" style="font-weight: bold;">Combos</h1>
+        </div>
+    </header>
+</div>
+<div class="mod-contenido">
+    <div class="mod-topbar">
+        <div>
+            <h2 class="mod-titulo">Gestión de combos</h2>
+            <p class="mod-sub">Agrega y consulta los combos del sistema</p>
+        </div><a asp-controller="Home" asp-action="Index" class="btn-regresar">← Regresar</a>
+    </div>
+    <div class="mod-layout">
+        <div class="mod-form-card">
+            <h3 class="mod-form-titulo">Nuevo combo</h3>
+            <form asp-action="Agregar" method="post">
+                <div class="form-group"><label>Nombre</label><input type="text" name="nombre"
+                                                                        placeholder="Ej. Combo Familiar" required /></div>
+                    <div class="form-group"><label>Descripción</label><input type="text" name="descripcion"
+                                                                                 placeholder="Descripción del combo" required /></div>
+                        <div class="form-group"><label>Precio</label><input type="number" step="0.01" name="precio"
+                                                                                placeholder="0.00" required /></div>
+                            <div class="form-group"><label>Alimento</label><select name="idAlimento" required>
+                                @* <option value="" Selecciona un alimento </option>
+                                @foreach (var alimento in ViewBag.Alimentos)
+
+                                {
+
+                                    <option value="@alimento.Value"> @alimento.Text
+
+                                    </option>
+                                } *@
+
+
+                            </select></div>
+                            <div class="form-group"><label>Bebida</label><select name="idBebida" required>
+                                @* <option value="">-- Selecciona una bebida --</option>
+                                @foreach (var bebida in ViewBag.Bebidas)
+
+                                {
+
+                                    <option value="@bebida.Value"> @bebida.Text
+
+                                    </option>
+                                } *@
+
+
+                            </select></div>
+                            <div class="form-group form-check-group"><label><input type="checkbox" name="activo" value="true" />
+                                Activo
+
+                            </label></div><button type="submit" class="btn-guardar"> Agregar combo
+
+                        </button>
+                    </form>
+                </div>
+                <div class="mod-tabla-card">
+                    <h3 class="mod-form-titulo"> Registros (@Model.Count)
+
+                    </h3>
+                    <div class="table-responsive">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Nombre</th>
+                                    <th>Descripción</th>
+                                    <th>Precio</th>
+                                    <th>Alimento</th>
+                                    <th>Bebida</th>
+                                    <th>Estatus</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (Model.Count == 0)
+
+                                {
+
+                                    <tr>
+                                        <td colspan="7" style="text-align:center; color:#aaa; padding:1.5rem;"> Sin registros aún
+
+                                        </td>
+                                    </tr>
+                                }
+
+
+                                @foreach (var combo in Model)
+
+                                {
+
+                                    <tr>
+                                        <td>@combo.idCombo</td>
+                                        <td>@combo.nombre</td>
+                                        <td>@combo.descripcion</td>
+                                        <td>$@combo.precio</td>
+                                        <td>@combo.idAlimento</td>
+                                        <td>@combo.idBebida</td>
+                                        <td><span class="badge-estatus @(combo.activo ? "activo" : "inactivo")"> @(combo.activo ?
+                                                                                "Activo" : "Inactivo")
+
+                                        </span></td>
+                                    </tr>
+                                }
+
+
+                            </tbody>                </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
