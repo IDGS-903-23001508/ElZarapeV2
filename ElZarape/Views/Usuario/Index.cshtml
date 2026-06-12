@@ -1,0 +1,103 @@
+@model List<ElZarape.Models.Usuario>
+
+<link rel="stylesheet" href="~/css/modulos-style.css" />
+
+<div class="container-fluid cabeza fixed-top" id="cabeza">
+    <img src="~/recursos/media/Logo_Zarape.png" alt="" class="hamburguer" id="hamburguer-icon" />
+    <header class="row">
+        <div class="col-12 titulo">
+            <h1 class="text-light text-center" style="font-weight: bold;">Usuarios</h1>
+        </div>
+    </header>
+</div>
+
+<div class="mod-contenido">
+
+    <div class="mod-topbar">
+        <div>
+            <h2 class="mod-titulo">Gestión de usuarios</h2>
+            <p class="mod-sub">Agrega y consulta los usuarios del sistema</p>
+        </div>
+        <a asp-controller="Home" asp-action="Index" class="btn-regresar">← Regresar</a>
+    </div>
+
+    <div class="mod-layout">
+
+        <div class="mod-form-card">
+            <h3 class="mod-form-titulo">Nuevo usuario</h3>
+
+            <form asp-action="Agregar" method="post">
+
+                <div class="form-group">
+                    <label>Nombre</label>
+                    <input type="text" name="nombre" placeholder="Nombre completo" required />
+                </div>
+
+                <div class="form-group">
+                    <label>Correo</label>
+                    <input type="email" name="correo" placeholder="correo@ejemplo.com" required />
+                </div>
+
+                <div class="form-group">
+                    <label>Contraseña</label>
+                    <input type="password" name="contraseña" placeholder="********" required />
+                </div>
+
+                <div class="form-group form-check-group">
+                    <label>
+                        <input type="checkbox" name="estatus" value="true" />
+                        Activo
+                    </label>
+                </div>
+
+                <button type="submit" class="btn-guardar">Agregar usuario</button>
+
+            </form>
+        </div>
+
+        <div class="mod-tabla-card">
+            <h3 class="mod-form-titulo">Registros (@Model.Count)</h3>
+
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Nombre</th>
+                            <th>Correo</th>
+                            <th>Contraseña</th>
+                            <th>Estatus</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @if (Model.Count == 0)
+                        {
+                            <tr>
+                                <td colspan="5" style="text-align:center; color:#aaa; padding:1.5rem;">
+                                    Sin registros aún
+                                </td>
+                            </tr>
+                        }
+
+                        @foreach (var usuario in Model)
+                        {
+                            <tr>
+                                <td>@usuario.idUsuario</td>
+                                <td>@usuario.nombre</td>
+                                <td>@usuario.correo</td>
+                                <td>••••••••</td>
+                                <td>
+                                    <span class="badge-estatus @(usuario.estatus ? "activo" : "inactivo")">
+                                        @(usuario.estatus ? "Activo" : "Inactivo")
+                                    </span>
+                                </td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

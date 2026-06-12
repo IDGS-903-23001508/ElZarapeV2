@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Proyectos\\IDGS903\\ElZarape\\ElZarape\\ElZarape.csproj": {}
+    "C:\\Users\\ytang\\Documents\\.VisualStudio\\.ProyectosWEBIntegral\\ElZarape\\ElZarapeV2\\ElZarape\\ElZarape.csproj": {}
   },
   "projects": {
-    "C:\\Proyectos\\IDGS903\\ElZarape\\ElZarape\\ElZarape.csproj": {
+    "C:\\Users\\ytang\\Documents\\.VisualStudio\\.ProyectosWEBIntegral\\ElZarape\\ElZarapeV2\\ElZarape\\ElZarape.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Proyectos\\IDGS903\\ElZarape\\ElZarape\\ElZarape.csproj",
+        "projectUniqueName": "C:\\Users\\ytang\\Documents\\.VisualStudio\\.ProyectosWEBIntegral\\ElZarape\\ElZarapeV2\\ElZarape\\ElZarape.csproj",
         "projectName": "ElZarape",
-        "projectPath": "C:\\Proyectos\\IDGS903\\ElZarape\\ElZarape\\ElZarape.csproj",
-        "packagesPath": "C:\\Users\\ramir\\.nuget\\packages\\",
-        "outputPath": "C:\\Proyectos\\IDGS903\\ElZarape\\ElZarape\\obj\\",
+        "projectPath": "C:\\Users\\ytang\\Documents\\.VisualStudio\\.ProyectosWEBIntegral\\ElZarape\\ElZarapeV2\\ElZarape\\ElZarape.csproj",
+        "packagesPath": "C:\\Users\\ytang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ytang\\Documents\\.VisualStudio\\.ProyectosWEBIntegral\\ElZarape\\ElZarapeV2\\ElZarape\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ramir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ytang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -71,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
